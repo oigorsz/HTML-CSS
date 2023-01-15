@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Anime' ;
+    src: url(Anime\ Inept.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Kaushan+Script&display=swap');
+
+
+:root {
+    --cor1 : #F2E2C4;
+    --cor2 : #F2766B;
+    --cor3 : #73324A;
+    --cor4 : #40010D;
+    --cor5 : #F25260;
+    --cor0 : white;
+    --cor6 : black;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-anime: 'Anime';
+    --fonte-nav: 'Josefin Sans', 'sans-serif';
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3));
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+}
+
+header > h1 {
+    display: flex;
+    text-align: left;
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+}
+
+main {
+    padding-top: 20px;
+    background-color: var(--cor3);
+    margin: auto;
+    max-width: 750px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.267);
+    align-items: center;
+}
+
+main > article {
+    margin: auto;
+    
+}
+
+.container {
+    display: flex;
+}

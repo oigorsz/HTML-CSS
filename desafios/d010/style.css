@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+    margin: 0;
+}
+
+header{
+    margin: 0px;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    background-image: linear-gradient(to top,#088a42, #10af58,#39CB79, #59e797);
+    
+}
+
+.linha{
+    display: inline-block;
+    margin: 0;
+    text-decoration: underline;
+
+}
+header > h1 {
+    text-align: center;
+    font-size: 2.2em;
+    
+    
+}
+
+#lista{
+    text-align: left;
+    margin: 0px 30px 0px 30px;
+}
+
+header > section > p {
+    text-align: center;
+    font-size: 1em;
+    margin: auto;
+    width: 400px;
+}
+
+header > section > nav {
+    text-align: left;
+    font-weight: bold;
+}
+
+header > section > nav > ul > li > a:hover {
+    color: #50cf87;
+}
+
+header > section > nav > ul > li > a:active {
+    color: #000000;
+}
+
+header > section > nav > ul > li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+}
+
+header > section > nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 1px 0px 1px 0px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.342) ;
+    
+}
+
+section{
+    padding: 0px 20px 0px 20px;
+}
+
+
+.intro{
+    background-image: linear-gradient(to right, white, white
+    );
+    font-size: 1.9em;
+    font-weight: bolder;
+}
+
+#linha{
+    text-align: center;
+    align-items: center;
+}
+
+main >section#dev3{
+    padding: 0px;
+}
+
+
+
+main > section > h1{
+    text-align: left;
+    color: #088a42;
+    background-image: linear-gradient(to right, #39cb7879, #fff );
+
+}
+
+main > section > p{
+    text-indent: 20px;
+    text-align: justify;
+   
+}
+
+main > section > p > strong {
+    color: #066631;
+    font-weight: bolder;
+}
+
+main > section > p > strong > a {
+    color: #066631;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+main > section >article > p > strong > a {
+    color: #066631;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+
+
+img#droids{
+    width: 750px;
+}
+img#mulher{
+    width: 750px;
+}
+
+
+section#dev2{
+    text-align: center;
+}
+
+
+
+section#dev3 > p{
+    text-align: center;
+    background-color: #1A5C38;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+section#dev4 > h2{
+    color: white;
+    background-color: #39CB79;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section > article {
+    background-color: #50cf876e;
+    padding: 1px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+}
+
+
+
+section > iframe {
+    align-items: center;
+}
+
+footer{
+    padding: 1px;
+    margin:0px;
+    color: white;
+    background-color:#1A5C38;
+    text-align: center;
+}
+
+
+
