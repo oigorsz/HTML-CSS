@@ -50,30 +50,7 @@ header > p {
     font-weight: bolder;
 }
 
-main {
-    background-color: white;
 
-    margin: auto;
-    max-width: 500px;
-    padding: 20px;
-
-    font-family: var(--fonte-poesia);
-    
-}
-
-main > article {
-    text-align: left;
-    width: 50%;
-    height: 450px;
-    
-}
-
-
-
-main > article > p {
-    font-size: 1.4em;
-    position: bottom;
-}
 
 footer {
     background-color: black;
