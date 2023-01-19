@@ -21,7 +21,6 @@ html, body {
 header {
     margin: auto;
     background-color: black;
-    height: 150px;
 }
 
 header > h1 {
@@ -29,7 +28,7 @@ header > h1 {
 
     font-family: var(--fonte-titulo);
     font-weight: lighter;
-    font-size: 4.2em;
+    font-size: 10vw;
 
     text-align: center;
 
@@ -46,10 +45,12 @@ header > p {
     text-align: center;
     
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 section {
     font-family: var(--fonte-poesia);
+    font-size: 3.5vw;
 
     padding-top: 10%;
     padding-bottom: 10%;
@@ -72,7 +73,8 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.356);
-    width: 300px;
+    display: inline-block;
+    padding: 5px;
 }
 
 .link {
