@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Maiores</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+
+        h1 {
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            height: 50px;
+        }
+
+        table {
+           margin: auto;
+           border: 1px solid black;
+           border-collapse: collapse;
+           width: 350px;
+           margin-bottom: 100px;
+           position: relative;
+        }
+
+        caption {
+            font-size: 1.4em;
+            padding: 15px;
+            color: #fff;
+            background-color: #014ab8;
+        }
+
+        thead {
+            background-color: #b3bae0a9;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #5f97bd;
+        } 
+        
+        /*Cabeçalho fixo que acompanha a tabela*/
+
+        tbody > tr:nth-child(odd) {
+            background-color: #b3bae0a9;
+        }
+
+
+        td, th {
+            border: 1px solid #000000;
+            padding: 10px;
+        }
+
+        tfoot {
+            background-color: #21557786;
+        }
+
+        .nome {
+            font-size: 1em;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela 3</h1>
+    <table>
+        <caption>População Brasileira Por Unidade Federativa
+        </caption>
+        <thead>
+            <tr>
+                <th class="title" scope="col">Unidade Federativa</th>
+                <th class="title" scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="nome">Acre</td>
+                <td class="num">795.145</td>
+            </tr>
+            <tr>
+                <td class="nome">Alagoas</td>
+                <td class="num">3 327.551</td>
+            </tr>
+            <tr>
+                <td class="nome">Amapá</td>
+                <td class="num">756.500</td>
+            </tr>
+            <tr>
+                <td class="nome">Amazonas</td>
+                <td class="num">3.893.763</td>
+            </tr>
+            <tr>
+                <td class="nome">Bahia</td>
+                <td class="num">15.150.143</td>
+            </tr>
+            <tr>
+                <td class="nome">Ceará</td>
+                <td class="num">8.867.448</td>
+            </tr>
+            <tr>
+                <td class="nome">Distrito Federal</td>
+                <td class="num">2.867.869</td>
+            </tr>
+            <tr>
+                <td class="nome">Espírito Santo</td>
+                <td class="num">3.894.899</td>
+            </tr>
+            <tr>
+                <td class="nome">Goiás</td>
+                <td class="num">6.551.322</td>
+            </tr>
+            <tr>
+                <td class="nome">Maranhão</td>
+                <td class="num">6.861.924</td>
+            </tr>
+            <tr>
+                <td class="nome">Mato Grosso</td>
+                <td class="num">3.236.578</td>
+            </tr>
+            <tr>
+                <td class="nome">Mato Grosso do Sul</td>
+                <td class="num">2.630.098</td>
+            </tr>
+            <tr>
+                <td class="nome">Minas Gerais</td>
+                <td class="num">20.777.672</td>
+            </tr>
+            <tr>
+                <td class="nome">Pará</td>
+                <td class="num">8.101.180</td>
+            </tr>
+            <tr>
+                <td class="nome">Paraíba</td>
+                <td class="num">3.950.359</td>
+            </tr>
+            <tr>
+                <td class="nome">Paraná</td>
+                <td class="num">11.112.062</td>
+            </tr>
+            <tr>
+                <td class="nome">Pernambuco</td>
+                <td class="num">9.297.861</td>
+            </tr>
+            <tr>
+                <td class="nome">Piauí</td>
+                <td class="num">3.198.185</td>
+            </tr>
+            <tr>
+                <td class="nome">Rio de Janeiro</td>
+                <td class="num">16.497.395</td>
+            </tr>
+            <tr>
+                <td class="nome">Rio Grande do Norte</td>
+                <td class="num">3.419.550</td>
+            </tr>
+            <tr>
+                <td class="nome">Rio Grande do Sul</td>
+                <td class="num">11.228.091</td>
+            </tr>
+            <tr>
+                <td class="nome">Rondônia</td>
+                <td class="num">1.755.015</td>
+            </tr>
+            <tr>
+                <td class="nome">Roraima</td>
+                <td class="num">500.826</td>
+            </tr>
+            <tr>
+                <td class="nome">Santa Catarina</td>
+                <td class="num">6.734.568</td>
+            </tr>
+            <tr>
+                <td class="nome">São Paulo</td>
+                <td class="num">44.169.350</td>
+            </tr>
+            <tr>
+                <td class="nome">Sergipe</td>
+                <td class="num">2.227.294</td>
+            </tr>
+            <tr>
+                <td class="nome">Tocantis</td>
+                <td class="num">1.502.759</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="nome" scope="row">População Total</td>
+                <td class="num">207.750.291</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
