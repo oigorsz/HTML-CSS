@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de Colunas</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 5vh;
+        }
+
+        table {
+            margin: auto;
+            width: 450px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.4em;
+            padding: 1em;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: yellow;
+        }
+
+        col.csexo {
+            background-color: blue;
+        }
+
+        col.cidade {
+            background-color: greenyellow;
+        }
+
+        col.cprof {
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <caption>Cadastro</caption>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>32</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Solange</td>
+                <td>F</td>
+                <td>35</td>
+                <td>Cabelereira</td>
+            </tr>
+            <tr>
+                <td>Fred</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>21</td>
+                <td>Nutricionista</td>
+            </tr>
+            <tr>
+                <td>Geovana</td>
+                <td>F</td>
+                <td>27</td>
+                <td>Administradora</td>
+            </tr>
+            
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    
+</body>
+</html>

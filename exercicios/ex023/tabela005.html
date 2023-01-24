@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Completas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 5vh;
+        }
+
+        table {
+            margin: auto;
+            width: 470px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+
+        #h {
+            background-color: #0000ff5e;
+        }
+
+        #m {
+            background-color: #ff00375e;
+        }
+
+        #colunas {
+            background-color: #52063f88;
+        }
+
+        caption {
+            font-size: 1.4em;
+            padding-bottom: 10px;
+        }
+
+        td, th {
+            padding: 8px;
+            border: 1px solid black;
+        }
+
+        .nomes ,.filmes {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <caption>Filmes favoritos</caption>
+        <thead>
+            <tr id="colunas">
+                <th class="group" scope="col">Grupos</hd>
+                <th class="group" scope="col">Nomes</th>
+                <th class="group" scope='colgroup'colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr  class="mulheres">
+                <th rowspan="3" id="m" scope="rowgroup">Mulheres</th>
+                <td class="nomes">Ana Maria Santos</td>
+                <td class="filmes">Alien</td>
+                <td class="filmes">Rambo</td>
+                <td class="filmes">Vingadores</td>
+            </tr>
+            <tr  class="mulheres">
+                <td class="nomes">Beatriz Souza</td>
+                <td class="filmes">Hulk</td>
+                <td class="filmes">Inception</td>
+                <td class="filmes">Batman</td>
+            </tr>
+            <tr class="mulheres">
+                <td class="nomes">Cláudia Melo</td>
+                <td class="filmes">Hulk</td>
+                <td class="filmes">Inception</td>
+                <td class="filmes">Batman</td>
+            </tr>
+            <tr class="homens">
+                <th rowspan="3" id="h" scope="rowgroup">Homens</th>
+                <td class="nomes">Bruno Mendonça</td>
+                <td class="filmes">Intocáveis</td>
+                <td class="filmes">Amnésia</td>
+                <td class="filmes">Gladiador</td>
+            </tr>
+            <tr class="homens">
+                <td class="nomes">Daniel Lorenço</td>
+                <td class="filmes">Wall-e</td>
+                <td class="filmes">Oldboy</td>
+                <td class="filmes">Dangal</td>
+            </tr>
+            <tr class="homens">
+                <td class="nomes">Fabio Mota</td>
+                <td class="filmes">Star Wars V</td>
+                <td class="filmes">Taxi Driver</td>
+                <td class="filmes">Toy Store</td>
+            </tr>
+            
+            
+            
+            
+
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    
+</body>
+</html>
