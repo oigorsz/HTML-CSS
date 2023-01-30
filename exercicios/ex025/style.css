@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+div {
+    margin: auto;
+    background-color: #5555ffdc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #0000001f;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+}
+
+form {
+    text-align: center;
+    color: white;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
