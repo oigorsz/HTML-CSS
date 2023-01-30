@@ -26,11 +26,29 @@ div {
 }
 
 form {
+    padding: 10px;
     text-align: center;
-    color: white;
+    color: #000;
 }
 
 p {
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.button {
+    display: inline-flexbox;
+    border: 1px solid  rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button:hover {
+    border: 1px solid  rgb(255, 255, 255);
+    color: #ffffff;
+    background-color: #e670e64d;
+    transform: translate(1px, 1px);
 }
