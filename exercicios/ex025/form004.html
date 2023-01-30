@@ -12,13 +12,13 @@
         <legend>Dados Pessoais</legend>
         <form action="cadastro.php" method="get" autocomplete="on">
             <p>
-                <label for="inome">Nome: </label> <input type="text" name="nome" id="inome" required >
+                <label for="inome">Nome: </label> <input type="text" name="nome" id="inome" autocomplete="nome" required >
             </p>
             <p>
-                <label for="iemail">Email: </label> <input type="email" name="email" id="iemail" required>
+                <label for="iemail">Email: </label> <input type="email" name="email" id="iemail" autocomplete="email" required>
             </p>
             <p>
-                <label for="itel">Telefone: </label> <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\) \d{4,5}\-\d{4}$" placeholder="(xx)xxxxx-xxxx">
+                <label for="itel">Telefone: </label> <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\) \d{4,5}\-\d{4}$" placeholder="(xx)xxxxx-xxxx" autocomplete="tel">
             </p>
            
         </form>
