@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label> <input class="input" type="text" name="nome" id="inome" placeholder="nome" required max="20"
+                size="20" autocomplete="name">
+            </p>
+            <p>
+                <label for="isobre">Sobrenome: </label> <input class="input" type="text" name="sobre" id="isobre" placeholder="sobrenome" required max="40"
+                size="20">
+            </p>
+            <p>
+                <label for="isex">Sexo: </label>
+                <input class="chose" class="input" type="radio" name="masculino" id="isex" required> feminino
+                <input class="chose" class="input" type="radio" name="masculino" id="isex" required> masculino
+                
+            </p>
+            <p>
+                <label for="iidade">Idade: </label> <input  class="input" type="number" nome="idade" id="iidade" step="1" min="0" placeholder="idade em anos" maxlength="1"  size="1" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Contato</legend>
+            <p>
+                <label for="iemail">Email: </label> <input class="input" type="email" nome="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label> <input class="input" type="tel" nome="tel" id="itel" placeholder="(xx) xxxxx-xxxx" required autocomplete="email">
+            </p>
+        </fieldset>
+        
+        <div>
+            <input  class="button" type="submit" value="Enviar">
+            <input class="button" type="reset" value="Resetar">
+        </div>
+    </form>
+    
+</body>
+</html>

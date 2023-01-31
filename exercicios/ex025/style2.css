@@ -22,6 +22,7 @@ h1 {
 form {
     margin: auto;
     max-width: 400px;
+    padding: 10px;
 }
 
 fieldset {
@@ -53,6 +54,7 @@ legend {
 p {
     height: 1.5rem;
     padding: 10px;
+    display: inline-block;
 }
 
 .input {

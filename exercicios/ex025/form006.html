@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Range e Files</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+        <form action="cadastro.php" method="post">
+            <fieldset>
+                <legend>Documentos Obrigatórios</legend>
+                    <p>
+                        <label for="if1"> RG, CNH ou Certidão de Nascimento</label><input type="file" name="f1" id="if1"></p>
+                    <p>
+                        <label for="if2">Comprovante de Endereço</label>
+                        <input type="file" name="f2" id="if2">
+                    </p>
+            </fieldset>
+            <fieldset>
+                <legend>Satisfação</legend>
+                <form action="cadastro.php" method="get">
+                    <p>
+                        <input type="range" name="sat" id="isat" min="1" max="4"><label for="isat">Qualidade</label>
+                    </p>
+            </fieldset>
+            <div>
+                <input class="button" type="submit" value="Enviar">
+                <input class="button" type="reset" value="Limpar">
+            </div>
+        </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

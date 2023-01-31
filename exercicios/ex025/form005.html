@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio e CheckBox</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset id="sexo">
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="isexm" value="M"> <label for="isexm">Masculino</label>
+            <input type="radio" name="sex" id="isexf" value="F"> <label for="isexf">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+                <p>
+                    <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol">Vôlei</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="eshan" id="ieshan"> <label for="ieshan">Handbol</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="eshag" id="ieshag"> <label for="ieshag">Rugby</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="esn" id="iesn"> <label for="ien">Nenhuma das opões acima</label>
+                </p>
+        </fieldset>
+    <div>
+        <input class="button"  type="submit" value="Enviar">
+        <input class="button" type="reset" value="Limpar">
+    </div>
+
+    </form>
+    
+    
+</body>
+</html>

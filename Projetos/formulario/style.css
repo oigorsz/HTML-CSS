@@ -16,7 +16,7 @@ h1 {
     height: 10vh;
     text-align: center;
 
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 0px 0px;
 }
 
 form {
@@ -34,11 +34,6 @@ fieldset {
     margin-bottom: 20px;
 
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-#sexo {
-    text-align: center;
-    
 }
 
 legend {
