@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius at incidunt iste omnis asperiores consequatur nobis quisquam. Quos mollitia rem tenetur error. Dolores accusamus, modi nostrum aliquid eum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, iusto quod reprehenderit a repellendus similique voluptatum. Perspiciatis, fugit, nihil natus sapiente magnam voluptates expedita incidunt quisquam cumque culpa commodi harum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nesciunt nulla fugit magni corporis ex voluptates. Ut delectus quibusdam, quisquam eligendi nemo esse eum sit perferendis fugit laboriosam aspernatur saepe?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius at incidunt iste omnis asperiores consequatur nobis quisquam. Quos mollitia rem tenetur error. Dolores accusamus, modi nostrum aliquid eum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, iusto quod reprehenderit a repellendus similique voluptatum. Perspiciatis, fugit, nihil natus sapiente magnam voluptates expedita incidunt quisquam cumque culpa commodi harum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nesciunt nulla fugit magni corporis ex voluptates. Ut delectus quibusdam, quisquam eligendi nemo esse eum sit perferendis fugit laboriosam aspernatur saepe?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius at incidunt iste omnis asperiores consequatur nobis quisquam. Quos mollitia rem tenetur error. Dolores accusamus, modi nostrum aliquid eum ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, iusto quod reprehenderit a repellendus similique voluptatum. Perspiciatis, fugit, nihil natus sapiente magnam voluptates expedita incidunt quisquam cumque culpa commodi harum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum nesciunt nulla fugit magni corporis ex voluptates. Ut delectus quibusdam, quisquam eligendi nemo esse eum sit perferendis fugit laboriosam aspernatur saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam deserunt quisquam dolores amet architecto quia eius obcaecati ducimus dignissimos ipsum quibusdam numquam nisi suscipit earum dicta, voluptates dolor minima. </p>
+
+
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado por <a href="https://www.instagram.com/oigoorsz/">@oigorsz</a></p>
+    </footer>
+    <script>
+
+        function clickMenu() {
+           if (itens.style.display == "block"){
+            itens.style.display = "none"
+           } else  {
+            itens.style.display = "block"
+           }
+        }
+        
+    </script>
+</body>
+</html>
