@@ -11,7 +11,7 @@ html, body {
 }
 
 header {
-    background-color: #30245a;
+    background-image: linear-gradient(to top, #1f183bb7,  #30245a );
     color: #fff;
 }
 
@@ -20,16 +20,16 @@ header > h1 {
     padding: 10px;
 }
 
-span#burger {
+i#burger {
     display: block;
     color: #fff;
-    background-color:  #1a174e;
+    background-color:  #1f183bb7;
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
-span#burger:hover {
+i#burger:hover {
     background-color: #bca7f7;
     color: #1a174e;
 }
@@ -61,6 +61,8 @@ menu > ul > li > a:hover {
     text-decoration: underline;
 }
 
+
+
 main {
     margin: auto;
     margin-top: 15px;
@@ -82,11 +84,13 @@ article > p {
 }
 
 footer {
+    position: relative;
+    display: block;
     background-color: #30245a;
     color: #fff;
     text-align: center;
     padding: 10px;
-    display: block;
+
 }
 
 footer > p > a {
@@ -96,7 +100,6 @@ footer > p > a {
 }
 
 footer > p > a:hover {
-
     text-decoration: underline;
 }
 

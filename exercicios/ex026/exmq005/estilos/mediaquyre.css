@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width : 768px) {
+
+    i#burger {
+        display: none;
+    }
+
+   menu {
+    display: block;
+    padding: 5px;
+    background-color:  #1f183bb7;
+   }
+
+   main {
+    width: 700px;
+   }
+
+   li {
+    display: inline-block;
+   }
+
+   .nav {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5px;
+    border-top: none;
+    border-radius: 10px;
+   }
+}
