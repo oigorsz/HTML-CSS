@@ -64,6 +64,7 @@ menu > ul > li > a:hover {
 main {
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 15px;
     padding: 10px;
     width: 90vw;
     background-color: #fff;
