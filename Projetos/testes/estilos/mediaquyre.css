@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #fff;
+    --cor1: #161616;
+    --cor2: #F2D022;
+    --cor3: #F2B90F;
+    --cor4: #d1cb7486;
+}
+
+@media screen and (min-width: 768px) {
+    
+    span#hamb {
+       display: none;
+    }
+
+    menu {
+        background-color: #636157 ;
+        display: block;
+    }
+
+    li {
+        margin: 0px 10px 0px 10px;
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+   
+}
